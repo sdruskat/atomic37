@@ -8,7 +8,7 @@
   <description>Includes meta files such as parent POM, launch configs, target def, etc.</description>
   
   <properties>
-		<tycho-version>0.24.0</tycho-version>
+		<tycho-version>1.0.0</tycho-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -133,7 +133,6 @@
 		<module>plugins/org.corpus-tools.atomic</module>
 		<module>tests/org.corpus-tools.atomic.tests</module>
 		<module>tests/org.corpus_tools.atomic.tests.gui</module>
-		<module>plugins/org.corpus-tools.atomic.logging</module>
 		<module>features/org-corpus-tools.atomic.feature</module>
 		<module>repository</module>
 		<module>target-definition</module>
