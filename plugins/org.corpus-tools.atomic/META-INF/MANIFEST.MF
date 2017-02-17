@@ -36,7 +36,8 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.aether.spi;bundle-version="1.0.2",
  org.eclipse.aether.transport.file;bundle-version="1.0.2",
  org.eclipse.aether.transport.http;bundle-version="1.0.2",
- org.eclipse.aether.util;bundle-version="1.0.2"
+ org.eclipse.aether.util;bundle-version="1.0.2",
+ com.lmax.disruptor;bundle-version="3.3.2"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Export-Package: org.apache.logging.log4j,
@@ -93,3 +94,6 @@ Export-Package: org.apache.logging.log4j,
  org.apache.logging.log4j.spi,
  org.apache.logging.log4j.status,
  org.apache.logging.log4j.util
+Bundle-ClassPath: extra-libs/log4j-api-2.8.jar,
+ extra-libs/log4j-core-2.8.jar,
+ .

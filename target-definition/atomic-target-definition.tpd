@@ -34,7 +34,7 @@ location "http://download.eclipse.org/releases/neon" {
 }
 
 location "https://dl.bintray.com/sdruskat/atomic-dependencies/" {
-	com.lmax.disruptor [3.3.2,3.4.0)
+	com.lmax.disruptor
 }
 
 location "https://dl.bintray.com/sdruskat/pepper-dependencies/" {
